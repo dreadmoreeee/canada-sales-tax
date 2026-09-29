@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "canada-sales-tax"
+version = "1.0.0"
+description = "Canadian GST/HST/PST/QST by province and date, with exact cents (Decimal), tax-included prices and EN/FR invoice lines."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Marvin Palencia"}]
+requires-python = ">=3.10"
+keywords = ["canada", "gst", "hst", "pst", "qst", "sales tax", "invoice"]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Topic :: Office/Business :: Financial :: Accounting"]
+
+[project.urls]
+Homepage = "https://github.com/dreadmoreeee/canada-sales-tax"
+Author = "https://marvin.demarkstudio.ca"
+
+[tool.setuptools]
+packages = ["canada_sales_tax"]
